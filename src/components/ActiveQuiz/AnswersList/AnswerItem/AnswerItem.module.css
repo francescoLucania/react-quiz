@@ -1,0 +1,15 @@
+.AnswerItem {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+.AnswerItem:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.AnswerItem:hover {
+    background: rgba(255, 255, 255, .2);
+    transition: background 200ms;
+}
